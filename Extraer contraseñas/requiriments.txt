@@ -1,2 +1,2 @@
-pycryptodome=3.21.0
-pywin32=308
+pycryptodome==3.21.0
+pywin32==308
