@@ -27,18 +27,25 @@ Un script creado para descifrar las credenciales que se guardan en los navegador
 - python-dotenv
 - win32crypt
 
+## Configuración del archivo .env
+Crea el archivo .env en la misma carpeta del script con la estructura que se muestra en el ejemplo, reemplaza los valores con los datos solicitados, para crear la contraseña de aplicación en Gmail sigue los pasos del video https://www.youtube.com/watch?v=xnbGakU7vhE
+
+EMAIL_USER=tucorreodeorigen
+EMAIL_PASSWORD=tucontrasenadeaplicacion
+EMAIL_RECEIVER=tucorreodedestino
+
 ## Instalación desde CLI
 1. Clona el repositorio: 
-git clone https://github.com/MixDark/DecryptPasswordsBrowser.git
+git clone https://github.com/MixDark/Cervero.git
 2. Instala las dependencias:
 pip install -r requirements.txt
 3. Ejecuta la aplicación:
-python extraer_contraseñas.py
+python cervero.py
 
 ## Uso
 1. Ejecuta el script y selecciona una opción 
-2. Esperar a que se complete el proceso
-3. Los archivos CSV quedan en la misma carpeta del script
+2. Escribe una contraseña para proteger el archivo (opcional)
+3. El archivo de Excel se envia al correo electronico
 
 ## Descargo de responsabilidad
-Este script fue creado para simular una situación en la que la gran mayorias de usuarios guarda las contraseñas en el navegador, su uso es para fines educativos y en caso de ser usado con fines maliciosos puede traer consecuencias legales en base a la leyes que existen en cada país.
+Este script fue creado para simular una situación en la que la gran mayorias de usuarios guardan las contraseñas en el navegador, su uso es para fines educativos y en caso de ser usado con fines maliciosos puede traer consecuencias legales en base a la leyes existentes en cada país.
