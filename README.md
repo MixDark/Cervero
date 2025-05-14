@@ -1,30 +1,31 @@
-# Decrypt Passwords Browser
+# Cervero
 
 ## Descripción
-Un script creado para descifrar las contraseñas que se guardan en los navegadores, con este metodo se pueden en texto plano.
+Un script creado para descifrar las credenciales que se guardan en los navegadores, con este metodo se pueden ver en texto plano y también realiza el envio al correo electronico en un archivo de excel protegido por contraseña.
 
 ## Capturas de pantalla
-![image](https://github.com/user-attachments/assets/98a639e8-9e76-417d-81e4-85b25a956d4e)
+![Cervero](https://github.com/user-attachments/assets/27e12b76-d5de-45db-b6c3-ab72e405505e)
 
-![image](https://github.com/user-attachments/assets/cb097f23-b2b6-4665-928c-90ce9a60aa3a)
-
-![image](https://github.com/user-attachments/assets/02286f85-3f44-4a70-9ff7-c463ff138ac2)
+![image](https://github.com/user-attachments/assets/63d03dcf-3571-4218-a7b8-0fad86f89057)
 
 
 ## Características
 - Es compatible con Windows
 - Soporte para navegadores como Microsoft Edge, Google Chrome y Brave
-- Guardar la información en un archivo CSV por cada navegador
+- Guardar la información en un archivo CSV por cada navegador protegido por contraseña
+- Envia el reporte al correo electrónico
 - Interfaz simple e intuitiva
 
-## Tecnologías utilizadas
-- Python 3.x
-- pycryptodome
 
 ## Requerimientos
 - Python 3.x 
 - pycryptodome
 - pywin32
+- msoffcrypto-tool
+- colorama
+- openpyxl
+- python-dotenv
+- win32crypt
 
 ## Instalación desde CLI
 1. Clona el repositorio: 
