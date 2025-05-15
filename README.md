@@ -30,8 +30,8 @@ Un script creado para descifrar las credenciales que se guardan en los navegador
 ## Configuración del archivo .env
 Crea el archivo .env en la misma carpeta del script con la estructura que se muestra en el ejemplo, reemplaza los valores con los datos solicitados, para crear la contraseña de aplicación en Gmail sigue los pasos del video https://www.youtube.com/watch?v=xnbGakU7vhE
 
-EMAIL_USER=tucorreodeorigen
-EMAIL_PASSWORD=tucontrasenadeaplicacion
+EMAIL_USER=tucorreodeorigen  
+EMAIL_PASSWORD=tucontraseñadeaplicacion  
 EMAIL_RECEIVER=tucorreodedestino
 
 ## Instalación desde CLI
