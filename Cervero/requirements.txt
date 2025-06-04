@@ -1,5 +1,5 @@
-pycryptodome=3.21.0
-pywin32=308
+pycryptodome==3.21.0
+pywin32==308
 python-dotenv==1.0.0
 win32crypt
 msoffcrypto-tool==5.4.2
