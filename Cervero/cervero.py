@@ -4,7 +4,7 @@ import json
 import base64
 import sqlite3
 import win32crypt
-from Cryptodome.Cipher import AES
+from Crypto.Cipher import AES
 import shutil
 from datetime import datetime
 from colorama import init, Fore, Style
